@@ -1,0 +1,5 @@
+div#primero:hover{background-color: yellow;}
+div#segundo:hover{background-color: yellow;}
+div#email:hover{background-color: yellow;}
+div#telefono:hover{background-color: yellow;}
+input:hover{border-color: darkorange;}

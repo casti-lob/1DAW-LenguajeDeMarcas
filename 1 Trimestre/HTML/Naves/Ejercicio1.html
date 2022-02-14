@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <form action="http://www.iesjacarandabrenes.org/lmsgi/resultado.php" method="POST">
+        <title>Ejercicio1</title>
+    </head>
+    <body>
+        <h1>Industrias ACME</h1>
+        <fieldset>
+        <legend>FORMULARIO DE PEDIDO</legend>
+         <h3>Paso 1.Identificación</h3>
+                <table>
+                    <tr>
+                        <td width="1500">
+                            <fieldset>
+                                <legend>Datos del Cliente</legend>
+                                Correo Electrónico <input type="email"> <br>
+                                Contraseña <input type="password" maxlength="6"><br>
+                                (Longitud máxima 6 caracteres)
+                            </fieldset>
+                        </td>
+                        <td width="20" >
+
+                        </td>
+                        <td width="300">
+                            <fieldset >
+                                <legend>Tipo de Ciente</legend>
+                                <input type="radio" name="cliente" checked="checked"> Particular<br>
+                                <input type="radio" name="cliente"> Asociación <br>
+                                <input type="radio" name="cliente"> Empresa<br>
+                            </fieldset>
+                        </td>
+                </tr>
+            </table>
+            <h3>Paso 2.Pedido</h3>
+            <table lang="right">
+                <tr>
+                    <td width="500">
+                        <fieldset>
+                            
+                            <legend>Datos del Producto</legend>
+                            <br><br>
+                            <legend for="Producto"><b>Producto</b></legend>
+                            <select multiple="multiple" name="Producto" size="7"> 
+                                <option>Armadura</option>
+                                <option value="AR1">AR001 Oro Reluciente</option>
+                                <option value="AR2">AR002 Planta Pulida</option>
+                                <option value="AR3">AR003 Bronce Reforzado</option>
+                                <option>Extras</option>
+                                <option value="EX1">Escudo</option>
+                                <option value="EX2">Invisibilidad</option>
+                            </select>
+                        </fieldset>
+                    </td>
+                    <td width="1300">
+                        <fieldset>
+                            <legend>Información de interés</legend>
+                            <label>Comentarios</label><br><br>
+                            <textarea cols="100" rows="5"></textarea><br>
+                            <input type="checkbox" checked="checked"> Acepto recibir Información publicitaria
+                        </fieldset>
+                    </td>
+                </tr>
+            </table>
+            <table height="10">
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td  width="1300">
+                        <fieldset>
+                            <legend>Datos de Envío</legend>
+                            <br>
+                            Dirección <input type="text" size="50"><br>
+                            Ciudad<input type="text"> Código Postal <input type="text" maxlength="5" size="10">
+                        </fieldset>
+                    </td>
+                </tr>
+            </table><br>
+            <table >
+                <tr>
+                    <td width="1600">
+                        <input type="submit" value="Enviar Pedido">
+                    </td>
+                
+                    <td>
+                        <input lang="right" type="reset" value="RESET">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </body>
+</html>

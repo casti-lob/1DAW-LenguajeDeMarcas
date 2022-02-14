@@ -1,0 +1,16 @@
+h1#titulo{color: aquamarine;}
+p strong{color: red;}
+p span.destacado{color: darkorange;}
+h2#subtitulo{color: blue;}
+p a{color: red;}
+p em{color: blue;}
+p span.especial{color: blueviolet;}
+th,td{border: 1px solid ;border-color: black;}
+caption{color: blue;}
+th.especial{color: darkorange;}
+td{color: green;}
+td strong{color: darkorange;}
+th{color: red;}
+div#adicional{color: greenyellow;}
+div#adicional p span.especial{color: deeppink;}
+div#adicional a{color: green;}

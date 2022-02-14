@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <form action="" method="get">
+        <h2>Información sobre el producto</h2>
+        <fieldset>
+            <legend>Datos básicos</legend>
+            <p>Nombre</p>
+            <p><input type="text" size="50"></p>
+            <p>Descripción</p>
+            <textarea name="descripcion" id="" cols="80" rows="10"></textarea>
+            <p>Foto 
+                <input type="image">
+            </p>
+            <p>
+                <input type="checkbox">
+                Añadir contador de visitas
+            </p>
+        
+        </fieldset>
+        <fieldset>
+            <legend>Datos económicos</legend>
+            <table>
+                <tr>
+                    <td width="250">
+                        Precio
+                        <input type="number" size="5">
+                        € 
+                    </td>
+                    <td>
+                        Impuestos 
+                        <select name="impuesto" id="">
+                            <option value="">4%</option>
+                            <option value="">7%</option>
+                            <option value="">16%</option>
+                            <option value="">25%</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Promoción</p>
+                        <p><input type="radio"name="promo">Ninguno</p>
+                        <p><input type="radio"name="promo">Transporte gratuito</p>
+                        <p><input type="radio"name="promo">Descuento 5%</p>
+                    </td>
+                </tr>
+            </table>
+            <p>
+
+               
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

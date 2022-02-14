@@ -1,0 +1,9 @@
+div#contenedor{float: left; width: 100%;height: 100%; background-color:purple; }
+div#cabecera{float: left; width: 100%; margin-left: 25%; height: 85%;}
+div#barra{text-align: center; float: left;width: 30%;  height: 800px;}
+div#contenido{float: left; width: 50%; margin-left: 15%; }
+input:focus{  color: royalblue;}
+input:valid{background-color: springgreen;}
+input:invalid{background-color: red;}
+a:active{color: teal;}
+a:visited{color: yellow;}

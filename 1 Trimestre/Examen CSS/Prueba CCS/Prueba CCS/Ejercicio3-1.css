@@ -1,0 +1,12 @@
+div#contenedor{float: left; width: 100%;}
+div#primero{float: left; width: 50%;}
+label.titulo{float: left; margin-right: 30%; margin-right: 300px;}
+div#primero span input{margin-right:300px;margin-bottom: 20px; margin-top: 20px; }
+div#primero span label{ margin-right: 300px;}
+div#segundo{float: left; width: 50%;}
+div#segundo span input{margin-right:300px;margin-bottom: 20px; margin-top: 20px; }
+div#segundo span label{ margin-right: 300px;}
+div#email{float: left; width: 50%;margin-top: 20px;}
+div#telefono{float: left; width: 50%;}
+p{visibility: hidden;}
+input#alta{float: left; margin-right: 600px;}

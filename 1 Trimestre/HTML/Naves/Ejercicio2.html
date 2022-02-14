@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <form action="http://www.iesjacarandabrenes.org/lmsgi/resultado.php"
+    <title>Ejercicio 2</title>
+</head>
+    <style>
+        .formulario:hover{background-color: red;}
+        .formulario:focus{background-color: blue;}
+    </style>
+    <body>
+        <table  align="center">
+            <tr>
+                <td>
+                    <font face="Georgia" size="20">CURSOS ONLINE</font><br><br>
+                </td>
+            </tr>
+        </table>
+        <table align="center">
+            <tr>
+                <td>
+                    <font face="serif" size="5">Formulario de registro</font>
+                </td>
+            </tr>
+        </table>
+        <font face="Arial">
+            <fieldset>
+                <legend><b>¿QUIÉN ERES?</b></legend>
+                <b>Nombre</b><br>
+                <input class="formulario" type="text"><br>
+                <b>Apellido</b><br>
+                <input class="formulario" type="text"><br><br>
+                <b>Correo Electrónico</b><br>
+                <input class="formulario" type="email"><br><br>
+                <b>Fecha de nacimiento</b><br>
+                <select class="formulario" name="dia_fecha">
+                    <option selected="true" disabled="disabled">Dia</option>
+                    <option>Lunes</option>
+                    <option>Martes</option>
+                    <option>Miercoles</option>
+                </select>
+                <select class="formulario" name="mes_fecha">
+                    <option selected="true" disabled="disabled">Mes</option>
+                    <option >Enero</option>
+                    <option>Febrero</option>
+                    <option>Marzo</option>
+                </select>
+                <select class="formulario" name="año_fecha">
+                    <option selected="true" disabled="disabled">Año</option>
+                    <option >1996</option>
+                    <option >1997</option>
+                    <option>1998</option>
+                </select>
+            </fieldset><br>
+            <fieldset><br>
+                <legend><b>¿DE DÓNDE ERES?</b></legend>
+                <b>Ciudad</b><br>
+                <input class="formulario" type="text"><br><br>
+                <b>Código postal</b><br>
+                <input class="formulario" type="text"><br><br>
+                <b>Pais</b><br>
+                <select class="formulario" >
+                    <option selected="true" disabled="disabled">Pais</option>
+                    <option >España</option>
+                    <option>Francia</option>
+                    <option>Alemania</option>
+                </select>
+            </fieldset><br>
+            <fieldset><br>
+                <legend><b>¿CÓMO QUIERES INICIAR SESIÓN?</b></legend>
+                <b>Nombre de usuario</b><br>
+                <input class="formulario" type="text" ><br><br>
+                <b>Contraseña</b><br>
+                <input class="formulario" type="password"><br><br>
+                <b>Vuelve a escribir la contraseña</b><br>
+                <input class="formulario" type="password"><br><br>
+            </fieldset><br>
+            <fieldset><br>
+                <legend><b>CONDICIONES DE REGISTRO</b></legend>
+                <b>Deseo recibir ofertas</b><br>
+                <input type="radio" name="opcion"><b>Una vez al dia</b>
+                <input type="radio" name="opcion"><b>Una vez a la semana</b>
+                <input type="radio" name="opcion"><b>Una vez al mes</b><br>
+                <input type="checkbox" name="aceptar"><b>Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies</b>
+            </fieldset><br>
+            <table align="center">
+                <tr>
+                    <td>
+                        <input  type="submit" value="Crear cuenta"
+                    </td>
+                </tr>
+            </table>
+
+        </font>
+    </body>
+
+</html>

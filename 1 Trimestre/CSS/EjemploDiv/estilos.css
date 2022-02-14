@@ -1,0 +1,12 @@
+div#contenedor{ background-color:darkgreen;width: 700px;}
+div#cabecera{height: 50px; background-color: deeppink; margin: 10px;}
+div#menu{width: 120px; height: 150px; background-color: darkseagreen;margin: 5px;float: left;}
+div#contenido{float: left;width: 550px;background-color: dodgerblue; margin: 6px;}
+* div#principal{height: 200px; float: left; width: 60%;margin: 8px;background-color:indigo;}
+* div#secundario{height: 200px;float: left; width: 30%;margin: 8px;background-color: lawngreen;}
+div#pie{ margin: 8px; background-color: rgb(216, 32, 63); height: 50px; clear: both;}
+
+
+
+
+

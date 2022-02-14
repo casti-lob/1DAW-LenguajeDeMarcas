@@ -1,0 +1,14 @@
+div#contenedor{float: left; width: 50%; margin-top: 10px;}
+div#primero{margin-top: 10px; margin-bottom: 20px;}
+div#primero input,label{ margin-top: 10px;margin-right: 800px;}
+div#segundo input,label{margin-top: 20px;margin-right: 900px;}
+div#segundo{margin-top: 20px;margin-bottom: 20px;}
+div#email{margin-top: 20px;margin-bottom: 20px;}
+div#email input,label{ margin-top: 10px;margin-right: 180px;}
+div#telefono{margin-top: 20px;margin-bottom: 20px;}
+div#telefono input,label{ margin-top: 10px;margin-right: 900px;}
+p{visibility: hidden;}
+input#alta{float: left; padding-right: ;}
+label.titulo{font-weight: bolder;}
+
+

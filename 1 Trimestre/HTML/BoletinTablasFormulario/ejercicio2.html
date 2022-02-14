@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <h2>Rellena tu CV</h2>
+    <form action="insertar_cv.php" method="get" >
+        <p>Nombre</p> 
+        <p><input name="nombre" type="text" maxlength="30"></p> 
+        <p>Apellidos</p>
+        <p><input name="apellidos" type="text" maxlength="80"></p>
+        <p>Contraseña</p>
+        <p><input name="contraseña" type="password" maxlength="10"></p>
+        <p>DNI</p>
+        <p><input name="numeroDNI" type="number" size="8" maxlength="8"> 
+        <input name="letraDni" type="text" size="1" maxlength="1"></p>
+        <p>Sexo</p>
+        <p><input type="radio" name="sexo"> Hombre</p>
+        <p><input type="radio" name="sexo"> Mujer</p>
+        <p>Incluir mi foto <input name="foto" type="file"></p>
+        <p><input name="suscripcion" type="checkbox" checked> Suscribirme al boletín de novedades</p>
+        <p><input type="submit" value="Grardar cambios">
+        <input type="reset" value="Borrar los datos introducidos"></p>
+
+
+    </form>
+</body>
+</html>

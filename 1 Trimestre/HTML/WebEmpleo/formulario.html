@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Formulario</title>
+</head>
+<body style="background-color: edeeff;">
+    <form action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" method="get">
+        <table align="center" bgcolor="efdaf6">
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <p>Nombre <input type="text" name="nombre" required> &nbsp; &nbsp; &nbsp;
+                        Apellidos <input type="text" name="apellidos" size="35" required> &nbsp; &nbsp; &nbsp;
+                        Edad <input type="number" name="edad" minlength="17" maxlength="80">&nbsp; &nbsp; &nbsp;
+                        
+                        Sexo <input type="radio" name="sexo" value="Masculino">Masculino&nbsp; &nbsp; 
+                        <input type="radio" name="sexo" value="Femenino">Femenino &nbsp; &nbsp; &nbsp;
+                        Residencia:
+                        <select name="Comunidad" id="ubicacion">
+                            <option value="Andalucia"> Andalucía</option>
+                            <option value="Extremadura">Extremadura</option>
+                            <option value="Castilla la Mancha"> Castilla la Mancha</option>
+                            <option value="Murcia"> Murcia</option>
+                            <option value="Valencia"> Valencia</option>
+                            <option value="Madrid"> Madrid</option>
+                            <option value="Aragon"> Aragón</option>
+                            <option value="Cataluña"> Cataluña</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Méritos</legend>
+                        <p>Carta de presentación&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                            Suba su CV: <input type="file" name="cv">
+                        </p>
+                            <p><textarea name="presentacion" id="presentacion" cols="50" rows="5">Presentase a la empresa</textarea>
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Interes</legend>
+                        <p>
+                            Selecciona las empresas que esté interesado
+                            <select multiple size="2" name="empresa" id="interes">
+                                <option value="grupoDigital"> Grupo Digital Programador</option>
+                                <option value="oesia"> Grupo Oesia BBDD</option>
+                                <option value="infotec"> Infotec Analista</option>
+                            </select>&nbsp; &nbsp; &nbsp;
+                            Escriba sus aficiones
+                            <input type="text" name="aficion1" size="40">
+                            <input type="hidden" name="aficion2" size="40">
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Contacto</legend>
+                        <p>
+                            Correo electrónico <input size="80" type="email" name="correo" required>&nbsp; &nbsp; &nbsp;
+                            Telefono: <input size="40" type="tel" name="telefono">&nbsp; &nbsp; &nbsp;
+                            
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>
+                            Comfirmación
+                        </legend>
+                        Acepto todos los terminos
+                        <input type="checkbox" checked>&nbsp; &nbsp; &nbsp;
+                        <input value="Subir" type="submit">&nbsp; &nbsp; &nbsp;
+                        <input type="reset">
+                    </fieldset>
+
+
+                </td>
+            </tr>
+        </table>
+       
+
+        
+        
+        
+        
+        </p> 
+
+        </fieldset>
+    </form>
+</body>
+</html>

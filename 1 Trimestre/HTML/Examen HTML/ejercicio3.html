@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="https://iesjacaranda.es/lmsgi/resultado.php" method="get">
+        <h3>Formulario</h3>
+        <table>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Preferencias</legend>
+                        <p>DNI <input type="text" name="dni" maxlength="9" id="" placeholder="Introducir DNI"></p>
+                        <p>Nombre <input type="text" name="nombre" maxlength="20"placeholder="Introducir Nombre" id=""></p>
+                        <p>Apellidos <input type="text" name="apellidos"maxlength="40"placeholder="Introducir Apellidos" id=""></p>
+                        <p>Email <input type="email" name="email" id="" placeholder="Introducir correo electrónico"></p>
+                        <p>Elija un color: <input type="color" name="color" id=""></p>
+                        <p>
+                            <select name="tamaño" multiple id="">
+                                <option value="uno">100 Mbits</option>
+                                <option value="dos">1000 Mbits</option>
+                            </select>
+                        </p>
+                        <p>
+                            <textarea name="texto" id="" cols="49" rows="6">Por favor, escriba aquí</textarea>
+                        </p>
+                        <p><input type="checkbox" name="amd" id="">AMD</p>
+                        <p><input type="checkbox" name="int5" id="">Intel i5</p>
+                        <p><input type="checkbox" name="int7" id="">Intel i7</p>
+
+                        <p>ELija una hora: <input type="time" name="tiempo" id=""></p>
+                        <p><input type="radio" name="opcion" id=""> 3G</p>
+                        <p><input type="radio" name="opcion" id="">4G</p>
+                        <p><input type="radio" name="opcion" id="">5G</p>
+                        <p>Elija un fichero: <input type="file" name="fichero" id=""></p>
+                        
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>Opciones</legend>
+                        <br><br>
+                        <p><input type="checkbox" name="historia" id="">Historia</p>
+                        <p><input type="checkbox" name="geografia" id="">Geografía</p>
+                        <p><input type="checkbox" name="lengua" id="">Lengua</p>
+                        <p><input type="checkbox" name="mates" id="">Matemáticas</p>
+
+                        <p>Elija una hora: <input type="time" name="tiempo_opciones" id=""></p>
+
+                        <p>Elija un fichero: <input type="file" name="fichero_opciones" id=""></p>
+
+                        <p>
+                            <textarea name="texto_opciones" id="" cols="49" rows="8" placeholder="Inserte aqui el texto"></textarea>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Cumplimente la información requerida</legend>
+                        <br><br>
+                        <p>Elija un fichero: <input type="file" name="fichero_info" id=""></p>
+                        <p>
+                            <select name="opcion_info" id="">
+                                <option value="usb">USB</option>
+                                <option value="paralelo">Paralelo</option>
+                                <option value="ps2">PS2</option>
+                            </select>
+                        </p>
+                        <p>
+                            <input type="radio" name="sistema" id=""> Windows
+                            <input type="radio" name="sistema" id=""> Mac
+                            <input type="radio" name="sistema" id=""> Linux
+                        </p>
+                        <p>Elija una fecha: <input type="date" name="fecha" id=""></p>
+                    </fieldset>
+                    <p>
+                        <br>
+                
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Reset">
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
